@@ -1,18 +1,21 @@
 /**
  * Created by jeffreydorney on 8/4/16.
  */
-public class Hero {
+public class Hero { //defines object Hero
 
-    public String heroName;
-    public int shortRange;
-    public int mediumRange;
-    public int longRange;
+    public String heroName;     //created string name variable
+    public boolean ultimateReady;   //created ultimate attack int
+    public int shortRange;      //created short attack int
+    public int mediumRange;     //created medium attack int
+    public int longRange;       //created long attack in
 
-    public Hero(String heroName, int shortRange, int mediumRange, int longRange) {
-        this.heroName = heroName;
-        this.shortRange = shortRange;
-        this.mediumRange = mediumRange;
-        this.longRange = longRange;
+    public Hero(String heroName, boolean ultimateReady, int longRange, int mediumRange, int shortRange) {
+        this.heroName = heroName;       //sets this hero name property
+        this.ultimateReady = ultimateReady; //sets this hero ultimate property
+        this.longRange = longRange;     //sets this hero long attack property
+        this.mediumRange = mediumRange; //sets this hero medium attack property
+        this.shortRange = shortRange;   //sets this hero short attack property
+
     }
 }
 
